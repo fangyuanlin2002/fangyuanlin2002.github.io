@@ -50,6 +50,7 @@ redirect_from:
 </div>
 
 ## My Collection of Good Exercise Problems, for Rising Probabilists and Statisticians.
+
 <div class="notes-grid">
   <article class="note-card">
     <h2><a href="https://github.com/fangyuanlin2002/Fangyuan-s-Collection-of-Exercises-in-Probability-Theory-and-Statistics">My Measure-Theoretic Probability Notes</a>
