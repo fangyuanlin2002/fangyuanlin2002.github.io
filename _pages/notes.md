@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-* TeXed Notes for My Favorite Subjects
+## TeXed Notes for My Favorite Subjects
 <div class="notes-grid">
   <article class="note-card">
     <h2><a href="https://www.overleaf.com/read/zpgnzggbqftw#f07866">My Measure-Theoretic Probability Notes</a>
@@ -49,7 +49,7 @@ redirect_from:
   </article>
 </div>
 
-* My Collection of Good Exercise Problems, for Rising Probabilists and Statisticians.
+## My Collection of Good Exercise Problems, for Rising Probabilists and Statisticians.
 <div class="notes-grid">
   <article class="note-card">
     <h2><a href="https://github.com/fangyuanlin2002/Fangyuan-s-Collection-of-Exercises-in-Probability-Theory-and-Statistics">My Measure-Theoretic Probability Notes</a>
