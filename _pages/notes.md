@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Notes"
+# title: "Notes"
 permalink: /notes/
 author_profile: true
 redirect_from:
@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
-
+* TeXed Notes for My Favorite Subjects
 <div class="notes-grid">
   <article class="note-card">
     <h2><a href="https://www.overleaf.com/read/zpgnzggbqftw#f07866">My Measure-Theoretic Probability Notes</a>
@@ -49,3 +49,12 @@ redirect_from:
   </article>
 </div>
 
+* My Collection of Good Exercise Problems, for Rising Probabilists and Statisticians.
+<div class="notes-grid">
+  <article class="note-card">
+    <h2><a href="https://github.com/fangyuanlin2002/Fangyuan-s-Collection-of-Exercises-in-Probability-Theory-and-Statistics">My Measure-Theoretic Probability Notes</a>
+    <embed src="https://github.com/fangyuanlin2002/Fangyuan-s-Collection-of-Exercises-in-Probability-Theory-and-Statistics/blob/main/main.pdf" width="100%" height="200px" type="application/pdf">
+    </h2>
+    <p>A collection of good exercise problems I collected while preparing for my core compentency exam at Columbia. Detailed solution is provided as well as some personal comments.</p>
+  </article>
+</div>
