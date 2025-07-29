@@ -53,7 +53,7 @@ redirect_from:
 
 <div class="notes-grid">
   <article class="note-card">
-    <h2><a href="https://github.com/fangyuanlin2002/Fangyuan-s-Collection-of-Exercises-in-Probability-Theory-and-Statistics">My Measure-Theoretic Probability Notes</a>
+    <h2><a href="https://github.com/fangyuanlin2002/Fangyuan-s-Collection-of-Exercises-in-Probability-Theory-and-Statistics">Collection of Exercises in Probability and Statistics</a>
     <embed
       src="https://cdn.jsdelivr.net/gh/fangyuanlin2002/Fangyuan-s-Collection-of-Exercises-in-Probability-Theory-and-Statistics@main/main.pdf"
       width="100%"
