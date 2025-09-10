@@ -8,7 +8,7 @@ date: 2025-09-02
 location: "New York, NY"
 ---
 
-- Email: fl1234@columbia.edu
+- Email: fl2744@columbia.edu
 - Office Hours: Mondays 1–2 PM, Fridays 3–4 PM, Watson Hall 601
 
 ## Communication
