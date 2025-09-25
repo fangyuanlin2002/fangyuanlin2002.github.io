@@ -47,10 +47,10 @@ The first problem is a guided application of Bayesian linear regression to globa
 
 - Download the dataset from the link in the homework. The first column is the year, the second is the change in global temperature
 -Part a: Fit a Bayesian linear regression. The question asks you to use priors with large standard deviation, i.e. weakly informative (50 is a reasonable choice for the standard deviation in case you are struggling to choose one).
-- Part b: state the posterior mean for the slope. Is it positive or negative? On average, there has been a "slope" degree Celsius increase/decrease per year.
+- Part b: State the posterior mean for the slope. Is it positive or negative? On average, there has been a "slope" degree Celsius increase/decrease per year.
 - Part c: Provide plot of the densities for the three parameters.
-- Part b: Use Monte Carlo. Calculate the porportion of samples for which the posterior mean of the slope obtained is positive. Intuitively, this probablity should be equal or close to 1 just by thinking of global warming.
-- Part e: Change the variance of the prior for b to something very nice (like 0.001). Does any of our conclusions change?
+- Part b: Use Monte Carlo simulation. Calculate the porportion of samples for which the posterior mean of the slope obtained is positive. Intuitively, this probablity should be equal or close to 1 just by thinking of global warming.
+- Part e: Change the variance of the prior for b to something very small (like 0.001). Does any of our conclusions change?
 - Part f: What statistical arguments can we make? Here are two points you can make: Is the posterior mean of the slope positive or negative? Does the conclusion hold regardless of the whether we use an informative or diffuse prior?
 
 
