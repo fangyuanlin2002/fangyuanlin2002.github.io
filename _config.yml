@@ -25,16 +25,16 @@ author:
   name             : "Fangyuan Lin"
   pronouns         : "he/him"  
   bio              : "The theory of probability as a mathematical discipline can and should be developed from axioms in exactly the same way as Geometry and Algebra. - Andrey Kolmogorov"
-  location         : "Berkeley, CA"
+  location         : "New York, NY"
   employer         : 
   uri              : # URL
   email            : "fangyuan@berkeley.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : #"https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=JDjRXgQAAAAJ&hl=en&authuser=3"
   impactstory      : # URL
-  orcid            : #"http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/my-orcid?orcid=0009-0004-0961-9157"
   semantic         : # URL
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
@@ -55,9 +55,9 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : # Username
+  instagram        : "keep_learning_math_until_i_die"
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/fangyuan-lin-93487b20b/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

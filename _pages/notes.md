@@ -35,7 +35,17 @@ redirect_from:
     <h2><a href="https://www.overleaf.com/read/tgskpmyshcdn#3b59e6">My Mathematical Statistics Notes</a>
     <embed src="https://fangyuanlin2002.github.io/files/graduate-mathematical-statistics-notes.pdf" width="100%" height="200px" type="application/pdf">
     </h2>
-    <p>Full notes + source code on graduate-level mathematical statistics..</p>
+    <p>Full notes + source code on graduate-level mathematical statistics.</p>
+  </article>
+
+  <article class="note-card">
+    <h2>
+    <a href="https://www.overleaf.com/read/tpdgvtvjctfy#bc635c">High Dimensional Statistics</a>
+      <embed src="https://fangyuanlin2002.github.io/files/common-derivatives.pdf" width="100%" height="200px" type="application/pdf"> 
+    </h2>
+    <p>
+      Full notes + source code on graduate-level high dimensional statistics and probability.
+    </p>
   </article>
 
   <article class="note-card">
