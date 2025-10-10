@@ -13,6 +13,7 @@ location: "New York, NY"
 
 ## Quick Links
 - [Communication](#communication)
+- [Student Check-In Form](#student-check-in-form)
 - [Homework 2](#homework-2)
 - [Homework 1](#homework-1)
   - [Problem 1](#problem-1)
@@ -23,6 +24,17 @@ location: "New York, NY"
 ## Communication
 - **CourseWorks (Canvas)**: This is where you can find all the official materials, submissions, and annoucements.
 - Please scroll down to see the comments I write about the homework/quiz/project. The comments are based on the frequently asked questions during the office hours and my own insights.
+
+## Student Check-In Form
+
+If you would like to share how the semester is going, what’s working or not working for you, or what kind of support might help, please use the form below. I do care and I do read the responses.
+
+📝 **[Click here to fill out the Student Check-In & Support Form](https://forms.gle/NabKk9YjunpETDd4A)**
+
+Everything you share is confidential and meant to help me support you better. Whether you’re doing great, struggling a little, or just want to share feedback — I’m here to listen.
+
+---
+
 
 ## Ways to Succeed in This Course
 - **Keep on track** Consistency brings mastery. Don't skip lectures or homeworks.
