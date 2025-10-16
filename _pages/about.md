@@ -6,9 +6,11 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<p class="about-intro">
-I am Fangyuan Lin and I have experienced firsthand how transformative even a small act of kindness and guidance can be. The generosity of my friends and professors empowered me to grow—so I’m devoted to paying that support forward.
-</p>
+
+I am Fangyuan Lin and I'm a PhD student at Columbia University, Department of Statistics. I'm broadly interested in probability theory, information theory, and statistics.
+
+I have experienced firsthand how transformative even a small act of kindness and guidance can be. The generosity of my friends and professors empowered me to grow—so I’m devoted to paying that support forward.
+
 <div class="about-grid">
   <section class="about-section education">
     <h2>Education</h2>
@@ -26,14 +28,9 @@ I am Fangyuan Lin and I have experienced firsthand how transformative even a sma
       </p>
     </div>
   </section>
-
-   <section class="about-section research">
-    <h2>Research Interests</h2>
-    <div class="research-card">
-      <ul class="research-list">
-        <li>Probability and Statistics</li>
-        <li>Information Theory</li>
-      </ul>
-    </div>
-  </section>
 </div>
+
+## News
+- **October 2025**: Our paper *An Analysis of Silk Density in Spider Webs* was published in [Royal Society Open Science](https://royalsocietypublishing.org/doi/10.1098/rsos.250455).
+- **September 2025**: Started my Ph.D. journey at Columbia Statistics and passed the Ph.D. Qualification Exams upon arrival.
+
