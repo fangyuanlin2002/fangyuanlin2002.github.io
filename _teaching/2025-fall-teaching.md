@@ -9,7 +9,7 @@ location: "New York, NY"
 ---
 
 - Email: fl2744@columbia.edu
-- Office Hours: Mondays 1–2 PM, Fridays 3–4 PM, Watson Hall 601
+- Office Hours: Mondays 1–2 PM, Uris 321 and Fridays 3–4 PM, Uris 319.
 
 ## Quick Links
 - [Communication](#communication)
