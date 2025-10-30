@@ -37,9 +37,11 @@ If you would like to share how the semester is going, what’s working or not wo
 
 Everything you share is confidential and meant to help me support you better. Whether you’re doing great, struggling a little, or just want to share feedback — I’m here to listen.
 
----
+- Feedback 1: "having a document summary of what was covered would be awesome."
+- My response to Feedback 1: Thank you very much for the suggestion. I love the idea—but I don’t have the bandwidth to write them myself, but I’m launching a crowdsourced project on Overleaf and inviting anyone who’s interested to contribute concise summaries of key concepts, techniques, and example code. Of course, I will be there to maintain it!
+It’s a great way to reinforce your understanding of Bayesian ideas while learning some LaTeX coding—a skill that’s incredibly useful in research and technical writing. It’s also a fun way to build rapport with classmates and be part of something meaningful that future students can benefit from. Contributors will be noted if they wish. The link is below:
 
-
+[Click here to join the project!](https://www.overleaf.com/2354589638gqpgxqftkxxx#f794b3) 
 ## Ways to Succeed in This Course
 - **Keep on track** Consistency brings mastery. Don't skip lectures or homeworks.
 - **Come to office hours** — They’re for you, whether you’re confused or just curious - ask questions early and all questions are welcome. I will do my very best to help.
