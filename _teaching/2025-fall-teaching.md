@@ -54,7 +54,7 @@ It’s a great way to reinforce your understanding of Bayesian ideas while learn
 This is Week 10. 
 ### Some tips
 - When modeling count data, such as the number of salamanders in a plot, we typically assume the response variable follows a Poisson distribution. The lecture slides of Week 9 provide a detailed introduction to the Poisson regression.
-- We were working with linear regression the entire time. This homework shifts gear to Poisson regression and logistic regression. They are harder than linear regression models in the sense that linear regression model is easier to interpret and has a formula (you don't need to be able compute the formula of linear regression model because it would require the knowledge of matrix algebra). Worry not, the course is not getting more difficult though. For the purpose of this course, you need to, first, intuitively understand the new regression techniques (review the lecture slides if you don't have an intuitive understanding), and second, write R code to analyze data using these new regression models. I have written some comments below that are intended to guide you through this assignment. I intentionally provided a lot of example code (and you may find this assignment very straightforward with my example code) because I believe that memorizing the grammar of R is not as important as understanding the workflow of data analysis.
+- We were working with linear regression the entire time. This homework shifts gear to Poisson regression and logistic regression. They are harder than linear regression models in the sense that linear regression model is easier to interpret and has an explicit formula (you don't need to be able compute the formula of linear regression model because it would require the knowledge of matrix algebra). Worry not, the course is not getting more difficult though. For the purpose of this course, you should, first, intuitively understand the new regression techniques (review the lecture slides if you don't have an intuitive understanding), and second, write R code to analyze data using these new regression models. I have written some comments below that are intended to guide you through this assignment. I intentionally provided a lot of example code (and you may find this assignment very straightforward with my example code) because I believe that memorizing the grammar of R is not as important as understanding the workflow of data analysis.
 
 ### Problem 1:
 
@@ -72,7 +72,8 @@ m1a <- ulam(
   cores = (I would put a four here),
   log_lik = TRUE
 )
-<code><pre>
+</code></pre>
+
 - Part b: Hint: if the coefficient of the new term is very big, then the forest age might be an important predictor. If the coefficient is very small, then we consider it as an unimportant predictor.
 
 Your model should be 
@@ -105,7 +106,7 @@ Think about why we set family to be binomial. (It's a quick question, not a tric
 
 You can use the following fact to check your solution: the intercept of the model should be about -3.99 
 
-- Part b Use quap:
+- Part b: Use quap:
 <pre><code>
 m2b <- quap(
   alist(
