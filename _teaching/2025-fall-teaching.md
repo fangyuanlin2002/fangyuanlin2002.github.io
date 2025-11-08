@@ -14,10 +14,13 @@ location: "New York, NY"
 ## Quick Links
 - [Communication](#communication)
 - [Student Check-In Form](#student-check-in-form)
+- [Homework 4](#homework-4)
+  - [Problem 1](#problem-1)
+  - [Problem 2](#problem-2)
 - [Homework 3](#homework-3)
   - [Problem 1](#problem-1)
   - [Problem 2](#problem-2)
-  - [Problem 3](#problem-2)
+  - [Problem 3](#problem-3)
 - [Homework 2](#homework-2)
 - [Homework 1](#homework-1)
   - [Problem 1](#problem-1)
@@ -47,6 +50,93 @@ It’s a great way to reinforce your understanding of Bayesian ideas while learn
 - **Come to office hours** — They’re for you, whether you’re confused or just curious - ask questions early and all questions are welcome. I will do my very best to help.
 - **You do not need to be a mathematician to succeed** — Don’t be afraid if the equations look heavy at first. The focus is on understanding ideas, running code, and interpreting results, not on doing pages of proofs. The intuition matters more than the algebraic details.
 
+## Homework 4
+This is Week 10. 
+### Some tips
+- When modeling count data, such as the number of salamanders in a plot, we typically assume the response variable follows a Poisson distribution. The lecture slides of Week 9 provide a detailed introduction to the Poisson regression.
+- We were working with linear regression the entire time. This homework shifts gear to Poisson regression and logistic regression. They are harder than linear regression models in the sense that linear regression model is easier to interpret and has a formula (you don't need to be able compute the formula of linear regression model because it would require the knowledge of matrix algebra). Worry not, the course is not getting more difficult though. For the purpose of this course, you need to, first, intuitively understand the new regression techniques (review the lecture slides if you don't have an intuitive understanding), and second, write R code to analyze data using these new regression models. I have written some comments below that are intended to guide you through this assignment. I intentionally provided a lot of example code (and you may find this assignment very straightforward with my example code) because I believe that memorizing the grammar of R is not as important as understanding the workflow of data analysis.
+
+### Problem 1:
+
+- Part a: Check: You should see lower accracy when the value of the predictor is high. The following code constructs the model.
+<pre><code>
+m1a <- ulam(
+  alist(
+    count ~ dpois(lambda),
+    log(lambda) <- a + b * cover, # This is the how Poisson regression is defined
+    a ~ DEFINE YOUR PRIOR
+    b ~ DEFINE YOUR PRIOR
+  ),
+  data = mod_data,
+  chains = (I would put a four here),
+  cores = (I would put a four here),
+  log_lik = TRUE
+)
+<code><pre>
+- Part b: Hint: if the coefficient of the new term is very big, then the forest age might be an important predictor. If the coefficient is very small, then we consider it as an unimportant predictor.
+
+Your model should be 
+<pre><code>
+ulam(
+  alist(
+    count ~ same as before
+    log(lambda) <- a + b * cover + b2 * age,
+    a ~ Define your prior
+    c(b, b2) ~ Define your prior
+  ),
+  data = mod_data,
+  chains = 4,
+  cores = 4,
+  log_lik = TRUE
+)
+</code></pre>
+
+### Problem 2:
+- Part a: First load your data. Then construct the logistic regression model.
+<pre><code>
+b_data <- read.csv(file.choose())
+b_data$r_cat <- as.factor(b_data$rank)
+
+glm(admit ~ FILL_IN_PREDICTOR_1 + FILL_IN_PREDICTOR_2 + FILL_IN_PREDICTOR_3, data = b_data, family = binomial)
+
+summary(m2a)
+</code></pre>
+Think about why we set family to be binomial. (It's a quick question, not a trick question.)
+
+You can use the following fact to check your solution: the intercept of the model should be about -3.99 
+
+- Part b Use quap:
+<pre><code>
+m2b <- quap(
+  alist(
+    admit ~ Your prior,
+    logit(p) <- a[r_cat] + b_gre * gre + b_gpa * gpa,
+    a[r_cat] ~ Your prior,
+    b_gre ~ Your prior,
+    b_gpa ~ Your prior
+  ),
+  data = b_data,
+  start = list(a = rep(0, 4), b_gre = 0, b_gpa = 0)
+)
+
+precis(m2b, depth = 2)
+</code></pre>
+- Part c: 
+
+<pre><code>
+m2c <- ulam(
+  alist(
+    same as part b
+  ),
+  data = b_data, chains= FILL_IN_YOURSELF , iter= FILL_IN_THIS_YOURSELF
+)
+
+precis(m2c, depth = 2)
+
+traceplot(m2c)
+
+</code></pre>
+- Part d: discuss the intercepts and the coefficients of the models.
 
 ## Homework 3
 Time flies. This is Week 8.
