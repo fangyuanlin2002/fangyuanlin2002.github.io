@@ -50,6 +50,9 @@ It’s a great way to reinforce your understanding of Bayesian ideas while learn
 - **Come to office hours** — They’re for you, whether you’re confused or just curious - ask questions early and all questions are welcome. I will do my very best to help.
 - **You do not need to be a mathematician to succeed** — Don’t be afraid if the equations look heavy at first. The focus is on understanding ideas, running code, and interpreting results, not on doing pages of proofs. The intuition matters more than the algebraic details.
 
+## Homework 5
+Homework 5 notes will hopefully be here soon. I accidentally spilled water on my laptop and it didn’t survive — my prior that “a water cup is dangerous” has now been updated from 0.1 to 1.0 (just kidding… 1.0 is an exaggeration).
+
 ## Homework 4
 This is Week 10. 
 ### Some tips
