@@ -14,6 +14,7 @@ location: "New York, NY"
 ## Quick Links
 - [Communication](#communication)
 - [Student Check-In Form](#student-check-in-form)
+- [Homework 5](#homework-5)
 - [Homework 4](#homework-4)
   - [Problem 1](#problem-1)
   - [Problem 2](#problem-2)
