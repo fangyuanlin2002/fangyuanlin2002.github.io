@@ -14,7 +14,10 @@ location: "New York, NY"
 ## Quick Links
 - [Communication](#communication)
 - [Student Check-In Form](#student-check-in-form)
+- [Final Project](#Final-Project)
 - [Homework 5](#homework-5)
+  - [Problem 1](#problem-1)
+  - [Problem 2](#problem-2)
 - [Homework 4](#homework-4)
   - [Problem 1](#problem-1)
   - [Problem 2](#problem-2)
@@ -51,8 +54,50 @@ It’s a great way to reinforce your understanding of Bayesian ideas while learn
 - **Come to office hours** — They’re for you, whether you’re confused or just curious - ask questions early and all questions are welcome. I will do my very best to help.
 - **You do not need to be a mathematician to succeed** — Don’t be afraid if the equations look heavy at first. The focus is on understanding ideas, running code, and interpreting results, not on doing pages of proofs. The intuition matters more than the algebraic details.
 
+
+## Final Project
+Please take this opportunity to investigate a question that genuinely interests you!
+
+
 ## Homework 5
-Homework 5 notes will hopefully be here soon. I accidentally spilled water on my laptop and it didn’t survive — my prior that “a water cup is dangerous” has now been updated from 0.1 to 1.0 (just kidding… 1.0 is an exaggeration).
+
+Homework 5 notes will hopefully be here soon. I accidentally spilled water on my laptop and it didn’t survive — my prior that “a water cup is dangerous” has now been updated from 0.1 to 1.0 (just kidding… 1.0 is an exaggeration). 
+
+- This is Week 14! The last week of class.
+- You are encouraged to fill out the evaluation for this course! It's been an honor to learn alongside you.
+
+### Problem 1: 
+- Part a: This part demonstrates how the choice of prior can matter. Define your model as 
+<pre><code>
+## Model 1
+ulam(
+  alist(
+    y ~ bernoulli(p),
+    p <- theta[s],
+    theta[s] ~ dbeta(FILL IN THIS)
+  ),
+  data = touch_data,
+  chains = 4,
+  iter = 2000,
+  log_lik = TRUE
+)
+</code></pre> 
+To get the contrast, run 
+<pre><code>
+post <- extract.samples(YOUR MODEL)
+contrast <- post$theta[, 28] - post$theta[, 1]
+</code></pre> 
+You should get a number that is close to 0.3XXX.
+
+- Part b: Repeat part a with model 2. 
+- Part c: Smaller WAIC means better fit.
+- Part d: I was disappointed to find there's no magic in this world.
+
+
+### Problem 2:
+- Part a: Run the provided the code. The HPDI is something like 0.75-0.8.
+- Part b and c: Data imputation doesn't change the result of our analysis very much, though the new estimate of the slope might be slightly higher. Also make a plot to see whether the imputed data would drive the slope higher, lower, or no effect.
+
 
 ## Homework 4
 This is Week 10. 
