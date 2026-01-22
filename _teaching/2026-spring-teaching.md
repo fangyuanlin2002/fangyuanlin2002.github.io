@@ -12,6 +12,7 @@ location: "New York, NY"
 - Office Hours: time TBD, School of Social Work (SSW) 1023.
 
 ## Quick Links
+- [Lecture Notes](https://www.overleaf.com/8582253538gzzmpybwrgsb#d87e5c)
 - [Communication](#communication)
 - [Student Check-In Form](#student-check-in-form)
 - [Homework 1](#homework-1)
@@ -21,6 +22,15 @@ location: "New York, NY"
 ## Communication
 - **CourseWorks (Canvas)**: This is where you can find all the official materials, submissions, and annoucements.
 - Please scroll down to see the comments I write about the homework/exams. The comments are based on the frequently asked questions during the office hours and my own insights.
+
+## Lecture Notes
+
+I maintain a set of LaTeX lecture notes for this course, hosted on Overleaf:
+
+**[Lecture Notes](https://www.overleaf.com/8582253538gzzmpybwrgsb#d87e5c)**
+
+These notes are meant to supplement the lectures, clarify technical details from my personal perspective. They will be updated throughout the semester.
+
 
 ## Student Check-In Form
 
