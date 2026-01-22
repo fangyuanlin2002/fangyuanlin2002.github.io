@@ -1,3 +1,13 @@
+# My academic website
+
+For my convenience, I run
+```
+bundle exec jekyll serve -l -H localhost
+```
+to test the website locally.
+
+The following content was written by the template author. 
+
 # Academic Pages
 **Academic Pages is a Github Pages template for academic websites.**
 
@@ -73,6 +83,3 @@ Unfortunately, one logistical issue with a template theme like Academic Pages th
 [![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
 [![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
 </div>
-
-
-bundle exec jekyll serve -l -H localhost
