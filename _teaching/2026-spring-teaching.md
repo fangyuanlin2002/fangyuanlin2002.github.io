@@ -9,7 +9,7 @@ location: "New York, NY"
 ---
 
 - Email: fl2744@columbia.edu
-- Office Hours: time TBD, School of Social Work (SSW) 1023.
+- Office Hours: 1-2pm Tuesday and 4-5pm Friday, School of Social Work (SSW) 1023.
 
 ## Quick Links
 - [TeX Lecture Notes](https://www.overleaf.com/8582253538gzzmpybwrgsb#d87e5c)
