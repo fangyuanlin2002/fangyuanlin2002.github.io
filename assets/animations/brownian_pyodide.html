@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Interactive Brownian Motion (Python in Browser)</title>
+
+<script src="https://cdn.jsdelivr.net/pyodide/v0.25.1/full/pyodide.js"></script>
+
+<style>
+body { font-family: sans-serif; margin: 20px; }
+button { padding: 6px 12px; margin-right: 8px; }
+input { margin-left: 8px; }
+#plot { margin-top: 20px; }
+</style>
+</head>
+
+<body>
+
+<h2>Scaled Random Walk → Brownian Motion</h2>
+
+<label>N:
+<input type="number" id="Nvalue" value="200" min="10" max="10000" step="10">
+</label>
+
+<button onclick="runPython()">Let's walk</button>
+
+<div id="plot"></div>
+
+<script>
+let pyodideReadyPromise = loadPyodide();
+
+async function runPython() {
+    let pyodide = await pyodideReadyPromise;
+
+    await pyodide.loadPackage(["numpy", "matplotlib"]);
+
+    const N = document.getElementById("Nvalue").value;
+
+    const code = `
+import numpy as np
+import matplotlib.pyplot as plt
+from js import document
+
+np.random.seed()
+
+N = int(${N})
+dt = 1.0 / N
+t = np.linspace(0, 1, N + 1)
+
+X = np.random.choice([-1, 1], size=N)
+W = np.zeros(N + 1)
+W[1:] = np.sqrt(dt) * np.cumsum(X)
+
+plt.clf()
+plt.plot(t, W, linewidth=1.2, color='royalblue')
+plt.title(f'Scaled Random Walk: N = {N}')
+plt.xlabel('t')
+plt.ylabel(r'$W^{(N)}(t)$')
+plt.axhline(0, color='gray', linestyle='--', linewidth=0.8)
+plt.grid(True, alpha=0.3)
+
+plt.gcf().canvas.draw()
+
+from matplotlib.backends.backend_agg import FigureCanvasAgg
+canvas = FigureCanvasAgg(plt.gcf())
+canvas.draw()
+
+import base64
+from io import BytesIO
+
+buf = BytesIO()
+plt.savefig(buf, format='png')
+buf.seek(0)
+data = base64.b64encode(buf.read()).decode('utf-8')
+
+document.getElementById("plot").innerHTML = f"<img src='data:image/png;base64,{data}'/>"
+`;
+
+    await pyodide.runPythonAsync(code);
+}
+
+function regen() {
+    runPython();
+}
+
+runPython();
+</script>
+
+</body>
+</html>

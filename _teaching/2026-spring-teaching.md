@@ -15,6 +15,7 @@ location: "New York, NY"
 - [TeX Lecture Notes](https://www.overleaf.com/8582253538gzzmpybwrgsb#d87e5c)
 - [Communication](#communication)
 - [Student Check-In Form](#student-check-in-form)
+- [Homework 2](#homework-2)
 - [Homework 1](#homework-1)
 - [FAQ](#faq)
 
@@ -39,6 +40,58 @@ If you would like to share how the semester is going, what’s working or not wo
 📝 **[Click here to fill out the Student Check-In & Support Form](https://forms.gle/QMjqctChV5wYqaBC7)**
 
 Everything you share is confidential and meant to help me support you better. Whether you’re doing great, struggling a little, or just want to share feedback — I’m here to listen.
+
+
+## Homework 2
+- Due Thursday, March 5th midnight.
+- Detailed solution will be posted afte the deadline.
+
+### Problem 1 — Toy
+
+<iframe
+  src="{{ '/assets/animations/brownian_pyodide.html' | relative_url }}"
+  width="100%"
+  height="700"
+  style="border: 1px solid #ddd; border-radius: 12px;">
+</iframe>
+
+
+### Problem 2 — Uncorrelated but not independent normals
+
+- Try computing the cdf. Or mgf. Your choice.
+
+
+
+### Problem 3 — Conditional expectation practice
+
+- Do some algebra.
+
+
+### Problem 4 - Are they martingales?
+- Part 1: the laziest process. It just sits there. A process so boring that it can't help but be fair.
+- Part 2: scale a martingale. 
+- Part 3: Adding a drift? That sounds desirable for a lot of things. Like your wealth.
+- Part 4: Compute the conditional expectation and see what happens.
+
+
+### Problem 5 — Means and variances
+
+- Part 1: just compute it :)
+- Part 2: This is the geometric Brownian motion. Use Gaussian mgf.
+- Part 3: Two independent Brownian motions multiplied together. They have nothing to say to each other.
+- Part 4: Now we are multiplying a Brownian motion with itself at two different times. This is where the covariance structure actually matters. For the variance, try googling the fourth moment of normal distribution, or compute it yourself :)
+- Part 5: A linear combination of independent normals. Shouldn't take too long :) Bonus observation: if a^2+b^2=1, then you get a Brownian motion.
+
+### Problem 6 — Brownian scaling
+
+- This is the Brownian motion is self-similar property. You can zoom in on time (speed it up by c) and zoom out on space (srink by sqrt(c)) and get exactly the same process back. Brownian motion is the fractal of stochastic processes - it looks the same at every scale. (try doing that with your stock portfolio).
+- Verify the defining properties of Brownian motion: starting at zero, independent increments, Gaussian process, continuous sample paths.
+
+### Problem 7 — Limiting Distribution of the Binomial Stock Price Model
+
+- An analogous example was presented during lecture 10 Week 6 Monday.
+- The central limit theorem does the heavy lifting.
+
 
 
 
