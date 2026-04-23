@@ -15,6 +15,8 @@ location: "New York, NY"
 - [TeX Lecture Notes](https://www.overleaf.com/8582253538gzzmpybwrgsb#d87e5c)
 - [Communication](#communication)
 - [Student Check-In Form](#student-check-in-form)
+- [Homework 4](#homework-4)
+- [Homework 3](#homework-3)
 - [Homework 2](#homework-2)
 - [Homework 1](#homework-1)
 - [FAQ](#faq)
@@ -41,6 +43,12 @@ If you would like to share how the semester is going, what’s working or not wo
 
 Everything you share is confidential and meant to help me support you better. Whether you’re doing great, struggling a little, or just want to share feedback — I’m here to listen.
 
+
+## Homework 4
+- Solution posted on CourseWorks.
+
+## Homework 3
+- Solution posted on CourseWorks.
 
 ## Homework 2
 - Due Thursday, March 5th midnight.
