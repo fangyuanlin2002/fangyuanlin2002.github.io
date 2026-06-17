@@ -31,6 +31,7 @@ I have experienced firsthand how transformative even a small act of kindness and
 </div>
 
 ## News
+- **June 2026**: Our paper *Bounded Difference Concentration for Infinitely Exchangeable Sequences with Applications to AI Benchmark Uncertainty* is on [arXiv](https://arxiv.org/abs/2606.17426).
 - **October 2025**: Our paper *An Analysis of Silk Density in Spider Webs* was published in [Royal Society Open Science](https://royalsocietypublishing.org/doi/10.1098/rsos.250455).
 - **September 2025**: Started my Ph.D. journey at Columbia Statistics and passed the Ph.D. Qualification Exams upon arrival.
 
