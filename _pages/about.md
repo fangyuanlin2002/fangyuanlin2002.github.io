@@ -31,6 +31,8 @@ I have experienced firsthand how transformative even a small act of kindness and
 </div>
 
 ## News
+- **October 2026**: *Not All Mislabels Are Equal: Efficient Task-Aware Auditing with Confidence Sequences*, with Noah Krever, Jakub Cerný, and Lily Xu. In submission; preliminary version in the NeurIPS 2026 Workshop “E-Values: From Statistics to ML”. [Preprint](https://arxiv.org/abs/2610.33262v1).
+- **July 2026**: *Mitigating the Winner’s Curse While Controlling Multiplicity: e-Process Methods for Anytime-Valid Inference in Dose-Ranging Trials*, with Victor K. de la Pena, Demissie Alemayehu, Victor H. de la Pena. Presented at SAVI Conference 2026. [Preprint](https://arxiv.org/abs/2607.07699).
 - **June 2026**: Our paper *Bounded Difference Concentration for Infinitely Exchangeable Sequences with Applications to AI Benchmark Uncertainty* is on [arXiv](https://arxiv.org/abs/2606.17426).
 - **October 2025**: Our paper *An Analysis of Silk Density in Spider Webs* was published in [Royal Society Open Science](https://royalsocietypublishing.org/doi/10.1098/rsos.250455).
 - **September 2025**: Started my Ph.D. journey at Columbia Statistics and passed the Ph.D. Qualification Exams upon arrival.

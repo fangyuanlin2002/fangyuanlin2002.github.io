@@ -2,8 +2,10 @@
 layout: archive
 title: "Research"
 permalink: /research/
-author_profile: false
+author_profile: true
 ---
+
+<p>My research connects probability theory with statistical inference: concentration under dependence, selection bias in random walks, and adaptive sequential methods for auditing tasks.</p>
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
@@ -15,7 +17,8 @@ author_profile: false
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
+    {% assign papers = site.publications | sort: 'date' | reverse %}
+    {% for post in papers %}
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
@@ -27,7 +30,8 @@ author_profile: false
     {% endfor %}
   {% endfor %}
 {% else %}
-  {% for post in site.publications reversed %}
+  {% assign papers = site.publications | sort: 'date' | reverse %}
+    {% for post in papers %}
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}

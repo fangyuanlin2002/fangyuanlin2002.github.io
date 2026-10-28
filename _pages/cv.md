@@ -1,14 +1,16 @@
 ---
-layout: archive
-title: "CV"
+layout: single
+title: "Curriculum vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+[Download CV (PDF)]({{ '/files/CV.pdf' | relative_url }}){: .btn .btn--primary}
 
-[Download CV here (Last update: Oct. 2024)](https://fangyuanlin2002.github.io/files/CV.pdf)
+Last updated: **October 13, 2026**.
 
-<embed src="https://fangyuanlin2002.github.io/files/CV.pdf" width="100%" height="600px" type="application/pdf">
+<object class="cv-preview" data="{{ '/files/CV.pdf' | relative_url }}" type="application/pdf" aria-label="Fangyuan Lin's curriculum vitae">
+  <p>Your browser cannot display this PDF. <a href="{{ '/files/CV.pdf' | relative_url }}">Download the CV</a>.</p>
+</object>
