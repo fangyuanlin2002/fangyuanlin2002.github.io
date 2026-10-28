@@ -26,7 +26,7 @@ location: "New York, NY"
 
 I maintain a set of LaTeX lecture notes for this course, hosted on Overleaf:
 
-**[Lecture Notes](https://www.overleaf.com/8582253538gzzmpybwrgsb#d87e5c)**
+**[Lecture Notes](https://www.overleaf.com/project/6adcbc51cbee7aeb660d668f/share#31857cacfbf7685e9d75c60efc5ac3c48b7dbefc001c4821)**
 
 These notes are meant to supplement the Prof. de la Pena's lectures. They will be updated throughout the semester. And everyone is welcome to contribute and edit :)
 
