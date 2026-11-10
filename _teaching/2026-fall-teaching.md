@@ -13,7 +13,8 @@ location: "New York, NY"
 
 ## Quick Links
 - [Communication](#communication)
-- [TeX Lecture Notes](https://www.overleaf.com/project/6adcbc51cbee7aeb660d668f/share#31857cacfbf7685e9d75c60efc5ac3c48b7dbefc001c4821)
+- [TeX Lecture Notes and Exam Preparation Material](https://www.overleaf.com/project/6adcbc51cbee7aeb660d668f/share#31857cacfbf7685e9d75c60efc5ac3c48b7dbefc001c4821)
+- [Homework 2](#homework-2)
 - [Homework 1](#homework-1)
 - [FAQ](#faq)
 
@@ -22,17 +23,23 @@ location: "New York, NY"
 - **CourseWorks (Canvas)**: This is where you can find all the official materials, submissions, and annoucements.
 - Please scroll down to see the comments I write about the homework/exams. 
 
-## LaTeX Lecture Notes
+## LaTeX Lecture Notes and Exam Preparation Material
 
-I maintain a set of LaTeX lecture notes for this course, hosted on Overleaf:
+I maintain a set of LaTeX lecture notes for this course (it also helpful formula sheet for the quiz), hosted on Overleaf:
 
-**[Lecture Notes](https://www.overleaf.com/project/6adcbc51cbee7aeb660d668f/share#31857cacfbf7685e9d75c60efc5ac3c48b7dbefc001c4821)**
+**[Lecture Notes and Exam Preparation Material](https://www.overleaf.com/project/6adcbc51cbee7aeb660d668f/share#31857cacfbf7685e9d75c60efc5ac3c48b7dbefc001c4821)**
 
-These notes are meant to supplement the Prof. de la Pena's lectures. They will be updated throughout the semester. And everyone is welcome to contribute and edit :)
+These notes are meant to supplement the Prof. de la Pena's lectures. They will be updated throughout the semester.
 
+
+## Homework 2
+- The homework problems are selected from the textbook (Probability and Statistics, 4th edition, by DeGroot and Schervish)
+- 7.3.6, 7.3.14, 7.3.24.
+- 7.4.4, 7.4.8, 7.4.12 a,b.
 
 ## Homework 1
 - The homework problems are selected from the textbook (Probability and Statistics, 4th edition, by DeGroot and Schervish)
+- Solution is posted on CourseWorks
 
 ### Problem 1: 6.3.10
 
@@ -53,11 +60,6 @@ These notes are meant to supplement the Prof. de la Pena's lectures. They will b
 
 ### Problem 7: 7.2.10
 
-### Problem 8: 7.3.6
-
-### Problem 9: 7.3.14
-
-### Problem 10: 7.3.24
 
 
 ---
@@ -68,7 +70,8 @@ These notes are meant to supplement the Prof. de la Pena's lectures. They will b
 
 
 ## FAQ
-### Will update throughout the semester : )
+- Are calculators allowed on the exam? Answer: Yes! Please bring simple calculators.
+- What's the scope of the quiz: the quiz covers Lecture 1-4 and Homework 1-2. Please see the above Overleaf link for helpful material for prepartion.
 
 
 
