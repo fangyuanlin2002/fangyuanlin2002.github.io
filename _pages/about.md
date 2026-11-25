@@ -31,6 +31,8 @@ I have experienced firsthand how transformative even a small act of kindness and
 </div>
 
 ## News
+- **November 2026**: My paper *Revisiting Unicity Distance: a Channel Transmission Perspective and its Limits* was published in [The PUMP Journal of Undergraduate Research](https://doi.org/10.46787/pump.v9i.4428). I joined a discussion of the project on [Andrew Gelman’s blog](https://statmodeling.stat.columbia.edu/2026/11/25/substitution-solver/). I also updated the [Wikipedia article on unicity distance](https://en.wikipedia.org/wiki/Unicity_distance) to clarify some potentially misleading statements about the classical estimate.
+
 - **October 2026**: *Not All Mislabels Are Equal: Efficient Task-Aware Auditing with Confidence Sequences*, with Noah Krever, Jakub Cerný, and Lily Xu. In submission; preliminary version in the NeurIPS 2026 Workshop “E-Values: From Statistics to ML”. [Preprint](https://arxiv.org/abs/2610.33262v1).
 - **July 2026**: *Mitigating the Winner’s Curse While Controlling Multiplicity: e-Process Methods for Anytime-Valid Inference in Dose-Ranging Trials*, with Victor K. de la Pena, Demissie Alemayehu, Victor H. de la Pena. Presented at SAVI Conference 2026. [Preprint](https://arxiv.org/abs/2607.07699).
 - **June 2026**: Our paper *Bounded Difference Concentration for Infinitely Exchangeable Sequences with Applications to AI Benchmark Uncertainty* is on [arXiv](https://arxiv.org/abs/2606.17426).
